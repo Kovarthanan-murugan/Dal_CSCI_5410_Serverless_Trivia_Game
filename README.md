@@ -24,6 +24,27 @@ Aws Api-gateway service offers mulitple options to create a api, in that websock
 
 **Lambda Explanation:**
 
-**onConnectFunction:**
+**1. onConnectFunction:**
 
 **Path:** backend/lambda/onConnectFunction.mjs
+
+**2. getRequestFunction:**
+
+**Path:** backend/lambda/getRequestFunction.mjs
+
+**3. sendQuestionToClient:**
+
+**Path:** backend/lambda/sendQuestionToClient.mjs
+
+**4. getResponseFunction:**
+
+**Path:** backend/lambda/getResponseFunction.mjs
+
+**5. onDisconnectFunction:**
+
+**Path:** backend/lambda/onDisconnectFunction.mjs
+
+**6. reponseToEndPoint:**
+
+**Path:** backend/lambda/reponseToEndPoint.mjs
+

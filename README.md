@@ -55,23 +55,39 @@ Aws Api-gateway service offers mulitple options to create a api, in that websock
 
 **Path:** backend/lambda/onConnectFunction.mjs
 
+When the client request for new connection, Aws websocket  will create new connection for that client and lambda which as been get as a target for $connect route will get trigged and in this lambda the connection id and other details sent by the client as a request parameters when making the connection request will be stored in a database.
+
+
+
 **2. getRequestFunction:**
 
 **Path:** backend/lambda/getRequestFunction.mjs
+This Lambda will get triggerd if the request body of the connection as the route **getRepsonseFromClient** which will trigger the lambda getRequestFunction to process the request by fetching the requested source, in this case the quiz requested by the users and other details like team members and players currently ready the play the same game.
+
+And this data will be sent to another lambda **sendQuestionToClient** to send data to the client in the define interval mentioned for that particular requested quiz.
 
 **3. sendQuestionToClient:**
 
 **Path:** backend/lambda/sendQuestionToClient.mjs
 
+It will send the data(quiz question)to all the connected client for that particular quiz at the time in the regular interval defined for that particular quiz.
+
 **4. getResponseFunction:**
 
 **Path:** backend/lambda/getResponseFunction.mjs
+Each connected client will get the data from the server and will be provided with option to send response to the server, in this case each player will be displayed with the questions with they can answer individually and send resposne.
+
+Each response from each client will be evaluated and scores will be update in a database which will later be used to calculate the performance of the player individually.
+
 
 **5. onDisconnectFunction:**
 
 **Path:** backend/lambda/onDisconnectFunction.mjs
 
+When a client exits the game lobby, there connection will be disconnected and they will no longer get the data from the server.
+
 **6. reponseToEndPoint:**
 
 **Path:** backend/lambda/reponseToEndPoint.mjs
+It provides options to other module done in different cloud services to access and modify content in the databases.
 

@@ -8,11 +8,38 @@ Furthermore, users have the capability to oversee their team affiliations. They 
 
 **Module5 In-Game Experience**
 
+**Features Implemented**
+**1. WebSocket Connection and Connection Management:** I have integrated AWS 
+API Gateway WebSocket to establish a connection between the client and the 
+backend (AWS Lambda) for real-time communication during the quiz. Lambda 
+functions handle backend operations, and the API Gateway WebSocket effectively 
+manages connections by storing connection IDs in DynamoDB.
+
+**2. Quiz Question Delivery**: Trivia multiple-choice questions are now seamlessly 
+pushed to connected clients at set timer intervals through the WebSocket 
+connection. Players receive questions and can answer them promptly.
+Answer Evaluation and Score Update: The player's answers are sent to AWS 
+Lambda through the API Gateway. Lambda evaluates the answers against the correct 
+answers stored in the database. If the player answers correctly, their score is instantly 
+increased in DynamoDB. Additionally, the updated score is stored in Firestore, 
+which is used by Module 2 for other functionalities.
+
+**3. Real-time Player Online List and Scores:** Clients receive real-time updates on the 
+online list of players and their scores. This information is constantly updated as 
+players join, leave, or score changes.
+
+**4. Game Administration Logic:** The game administration logic has been successfully 
+implemented to control the quiz's start. Only the admin has the privilege to start the 
+quiz. In the case of a single team, the admin exclusively initiates the game. For
+multiple teams, the first admin to join takes charge of starting the game. 
+Furthermore, correct answers are displayed to players between each question.
+
 **AWS Services Used:**
 
 1) Aws Lambda
 2) Aws Gateway
 3) Aws DynamoDB
+4) Aws SNS
 
 **Architecture**
 

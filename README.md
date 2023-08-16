@@ -12,4 +12,7 @@ Furthermore, users have the capability to oversee their team affiliations. They 
 
 ![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/c5457599-057d-4a35-abbe-fd630339e3be)
 
+Aws Api-gateway service offers mulitple options to create a api, in that websocket is one of it, which enables option to establish bi-directional communications between client and server until the connection is disconnected. Lambda functions to implement the serverless backend operations and dynamodb to store the data.
+
+
 ![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/4a7c26d3-af73-487a-89ea-601d0cd5c934)

@@ -8,6 +8,12 @@ Furthermore, users have the capability to oversee their team affiliations. They 
 
 **Module5 In-Game Experience**
 
+**AWS Services Used:**
+
+1) Aws Lambda
+2) Aws Gateway
+3) Aws DynamoDB
+
 **Architecture**
 
 ![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/c5457599-057d-4a35-abbe-fd630339e3be)

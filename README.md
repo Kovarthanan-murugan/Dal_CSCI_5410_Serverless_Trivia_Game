@@ -152,6 +152,7 @@ The GCP-hosted Node.js backend has been seamlessly deployed onto Cloud Functions
 The integration of Google Firestore as the chosen NoSQL document database has been successfully executed. This selection greatly facilitates a range of operations concerning user details within the GCP ecosystem. Leveraging Firestore's adaptable structure, the application securely stores user profile information and game-related historical performance data in an organized and scalable manner. The backend's tight integration with Firestore ensures the uninterrupted flow of data, enabling efficient retrieval to fulfill the application's needs. The utilization of Firestore presents a resilient and effective database solution within the broader GCP environment.
 
 **Output:**
+
 ![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/2855447a-a4eb-4a76-a63d-dd0ec5ba1eda)
 ![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/a4ffd2e6-7a60-4e40-8365-a009e61fdc7a)
 ![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/5945a698-40a2-428d-8c5f-20dc15efa921)

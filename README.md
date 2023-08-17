@@ -92,6 +92,14 @@ When a client exits the game lobby, there connection will be disconnected and th
 **Path:** backend/lambda/reponseToEndPoint.mjs
 It provides options to other module done in different cloud services to access and modify content in the databases.
 
+**Output:**
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/82b83660-07f2-4dc2-9b16-3ebab6694f22)
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/eabc419a-a7e1-40dd-8848-a1df0cbc3465)
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/c1ce58e2-1461-429e-9f0f-74df5b2db7e5)
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/597ea56d-c1d9-4f00-a2f4-1ec3166c6bbb)
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/95107926-341f-4795-b89b-c49c64c0bad1)
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/31049e62-f57b-454a-b233-ccda0f217c8f)
+
 # Module2 User Profile Management
 
 The application provides users with a comprehensive view of their profile details, including first 
@@ -142,3 +150,9 @@ The GCP-hosted Node.js backend has been seamlessly deployed onto Cloud Functions
 ![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/20ca31db-45bb-4146-b55c-c72827b2ff9f)
 
 The integration of Google Firestore as the chosen NoSQL document database has been successfully executed. This selection greatly facilitates a range of operations concerning user details within the GCP ecosystem. Leveraging Firestore's adaptable structure, the application securely stores user profile information and game-related historical performance data in an organized and scalable manner. The backend's tight integration with Firestore ensures the uninterrupted flow of data, enabling efficient retrieval to fulfill the application's needs. The utilization of Firestore presents a resilient and effective database solution within the broader GCP environment.
+
+**Output:**
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/2855447a-a4eb-4a76-a63d-dd0ec5ba1eda)
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/a4ffd2e6-7a60-4e40-8365-a009e61fdc7a)
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/5945a698-40a2-428d-8c5f-20dc15efa921)
+

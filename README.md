@@ -6,7 +6,7 @@ Once logged in, users can discover a range of quizzes crafted by the game's admi
 
 Furthermore, users have the capability to oversee their team affiliations. They can invite others to join their teams and remove members if needed. The inclusion of a chatbot assists users throughout the application, offering guidance and delivering scores. The application boasts a user-friendly interface and is entirely serverless. It's constructed utilizing various cloud services provided by AWS and GCP.
 
-**Module5 In-Game Experience**
+# Module5 In-Game Experience
 
 **Features Implemented**
 **1. WebSocket Connection and Connection Management:** I have integrated AWS 
@@ -92,7 +92,7 @@ When a client exits the game lobby, there connection will be disconnected and th
 **Path:** backend/lambda/reponseToEndPoint.mjs
 It provides options to other module done in different cloud services to access and modify content in the databases.
 
-**Module2 User Profile Management**
+# Module2 User Profile Management
 
 The application provides users with a comprehensive view of their profile details, including first 
 name, last name, email, and age. Additionally, it offers insights into the user's game history 
@@ -101,6 +101,7 @@ profile values, which are then updated in the database and seamlessly propagated
 relevant locations where these operations are executed.
 
 **Features Implemented**
+
 **1. User Details Display:** I have created a React frontend component that makes API calls to the 
 Node.js backend hosted on GCP Cloud Functions. The backend interacts with Google Firestore 
 to fetch and display user details on the frontend.
@@ -114,6 +115,7 @@ whenever there is a change in the player's score. The backend processes these ev
 the game history performance data in Google Firestore.
 
 **Services Used:**
+
 **1. GCP Cloud Functions:** The Node.js backend is successfully hosted on GCP 
 Cloud Functions. This choice of a serverless solution enables efficient handling of 
 HTTP requests and automatic scaling based on demand. The implementation of 
@@ -136,5 +138,7 @@ efficient database solution within the GCP environment
 ![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/c303468e-026b-4e23-af2a-8ba9d913c615)
 
 The GCP-hosted Node.js backend has been seamlessly deployed onto Cloud Functions. This strategic decision to opt for a serverless approach ensures efficient management of HTTP requests and automatic scaling in response to demand fluctuations. By utilizing Cloud Functions, the application maximizes resource utilization and adeptly manages serverless computing, all while optimizing costs. Integrating this backend with other GCP services fosters smooth inter-module communication, promoting seamless functionality across various components.
+
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/20ca31db-45bb-4146-b55c-c72827b2ff9f)
 
 The integration of Google Firestore as the chosen NoSQL document database has been successfully executed. This selection greatly facilitates a range of operations concerning user details within the GCP ecosystem. Leveraging Firestore's adaptable structure, the application securely stores user profile information and game-related historical performance data in an organized and scalable manner. The backend's tight integration with Firestore ensures the uninterrupted flow of data, enabling efficient retrieval to fulfill the application's needs. The utilization of Firestore presents a resilient and effective database solution within the broader GCP environment.

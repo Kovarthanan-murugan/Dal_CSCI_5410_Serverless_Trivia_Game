@@ -75,6 +75,7 @@ It will send the data(quiz question)to all the connected client for that particu
 **4. getResponseFunction:**
 
 **Path:** backend/lambda/getResponseFunction.mjs
+
 Each connected client will get the data from the server and will be provided with option to send response to the server, in this case each player will be displayed with the questions with they can answer individually and send resposne.
 
 Each response from each client will be evaluated and scores will be update in a database which will later be used to calculate the performance of the player individually.
@@ -91,3 +92,49 @@ When a client exits the game lobby, there connection will be disconnected and th
 **Path:** backend/lambda/reponseToEndPoint.mjs
 It provides options to other module done in different cloud services to access and modify content in the databases.
 
+**Module2 User Profile Management**
+
+The application provides users with a comprehensive view of their profile details, including first 
+name, last name, email, and age. Additionally, it offers insights into the user's game history 
+performance. Users can not only view this information but also make changes to their existing 
+profile values, which are then updated in the database and seamlessly propagated to all the 
+relevant locations where these operations are executed.
+
+**Features Implemented**
+**1. User Details Display:** I have created a React frontend component that makes API calls to the 
+Node.js backend hosted on GCP Cloud Functions. The backend interacts with Google Firestore 
+to fetch and display user details on the frontend.
+
+**2. User Details Editing:** The React frontend includes an editable form that allows users to modify 
+their details. When users submit the form, it sends a request to the Node.js backend. The backend 
+processes the request and updates the relevant user details in Google Firestore.
+Game History Performance: I integrated Module 5 In-game Experience to track the player's 
+performance. Module 5 sends events to the Node.js backend hosted on Cloud Functions 
+whenever there is a change in the player's score. The backend processes these events and updates 
+the game history performance data in Google Firestore.
+
+**Services Used:**
+**1. GCP Cloud Functions:** The Node.js backend is successfully hosted on GCP 
+Cloud Functions. This choice of a serverless solution enables efficient handling of 
+HTTP requests and automatic scaling based on demand. The implementation of 
+Cloud Functions allows the application to optimize resource usage and costeffectively manage serverless computing. Integrating this backend with other GCP 
+services ensures smooth communication and interoperability among different 
+modules.
+20
+
+**2. Google Firestore :** The implementation of Google Firestore as the NoSQL 
+document database has been successfully completed. This choice facilitates 
+performing various operations related to user details in GCP. Firestore's flexible 
+structure enables the storage of user profile information and game history 
+performance data in a scalable and organized manner. Its integration with the 
+backend has been effectively established, allowing seamless data flow and retrieval 
+for the application's requirements. The utilization of Firestore provides a robust and 
+efficient database solution within the GCP environment
+
+**Architecture**
+
+![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/c303468e-026b-4e23-af2a-8ba9d913c615)
+
+The GCP-hosted Node.js backend has been seamlessly deployed onto Cloud Functions. This strategic decision to opt for a serverless approach ensures efficient management of HTTP requests and automatic scaling in response to demand fluctuations. By utilizing Cloud Functions, the application maximizes resource utilization and adeptly manages serverless computing, all while optimizing costs. Integrating this backend with other GCP services fosters smooth inter-module communication, promoting seamless functionality across various components.
+
+The integration of Google Firestore as the chosen NoSQL document database has been successfully executed. This selection greatly facilitates a range of operations concerning user details within the GCP ecosystem. Leveraging Firestore's adaptable structure, the application securely stores user profile information and game-related historical performance data in an organized and scalable manner. The backend's tight integration with Firestore ensures the uninterrupted flow of data, enabling efficient retrieval to fulfill the application's needs. The utilization of Firestore presents a resilient and effective database solution within the broader GCP environment.

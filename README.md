@@ -97,9 +97,10 @@ When a client exits the game lobby, there connection will be disconnected and th
 It provides options to other module done in different cloud services to access and modify content in the databases.
 
 **Test Cases**
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/30de8c83-a337-4106-975c-e512e6ac8262)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/14e75bc3-7a46-4e78-b694-9a1ced3984e3)
 
-![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/b5efb59c-2a33-459a-a30b-1797813dfbb5)
-![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/f242e62b-9207-4494-8ee4-975f0f84720a)
+
 
 **Output:**
 

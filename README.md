@@ -97,6 +97,8 @@ When a client exits the game lobby, there connection will be disconnected and th
 It provides options to other module done in different cloud services to access and modify content in the databases.
 
 **Output:**
+
+
 ![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/1cb704a5-5026-4fe8-b3f6-0c1c88bd86db)
 ![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/736344d5-0d85-4165-b501-167ea32cc7fb)
 ![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/c832b1a8-2751-41d9-bcab-34ea67c7e08b)
@@ -147,11 +149,11 @@ efficient database solution within the GCP environment
 
 **Architecture**
 
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/c303468e-026b-4e23-af2a-8ba9d913c615)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/47d66d84-3508-4a2e-b574-c9465c786068)
 
 The GCP-hosted Node.js backend has been seamlessly deployed onto Cloud Functions. This strategic decision to opt for a serverless approach ensures efficient management of HTTP requests and automatic scaling in response to demand fluctuations. By utilizing Cloud Functions, the application maximizes resource utilization and adeptly manages serverless computing, all while optimizing costs. Integrating this backend with other GCP services fosters smooth inter-module communication, promoting seamless functionality across various components.
 
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/20ca31db-45bb-4146-b55c-c72827b2ff9f)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/13dd5e6d-0072-43b4-9e2b-58a9eeef629f)
 
 The integration of Google Firestore as the chosen NoSQL document database has been successfully executed. This selection greatly facilitates a range of operations concerning user details within the GCP ecosystem. Leveraging Firestore's adaptable structure, the application securely stores user profile information and game-related historical performance data in an organized and scalable manner. The backend's tight integration with Firestore ensures the uninterrupted flow of data, enabling efficient retrieval to fulfill the application's needs. The utilization of Firestore presents a resilient and effective database solution within the broader GCP environment.
 
@@ -159,13 +161,13 @@ The integration of Google Firestore as the chosen NoSQL document database has be
 
 **Retrieving User Profile Details**
 
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/2855447a-a4eb-4a76-a63d-dd0ec5ba1eda)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/afcd3b35-0174-421b-841b-516afb4bae3f)
 
 **Editing User Profile Details**
 
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/a4ffd2e6-7a60-4e40-8365-a009e61fdc7a)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/96711b98-3a9f-4f53-bf71-7b7a8ae1340a)
 
 **Game History Update**
 
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/5945a698-40a2-428d-8c5f-20dc15efa921)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/c1b91881-fc23-4234-938b-8b073939881e)
 

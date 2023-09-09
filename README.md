@@ -161,13 +161,13 @@ The integration of Google Firestore as the chosen NoSQL document database has be
 
 **Retrieving User Profile Details**
 
-![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/afcd3b35-0174-421b-841b-516afb4bae3f)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/4549aaed-ce7a-4db7-a75c-71c1a6003c53)
 
 **Editing User Profile Details**
 
-![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/96711b98-3a9f-4f53-bf71-7b7a8ae1340a)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/7b4dac95-0f0e-4c31-8eef-ffef45a5dee4)
 
 **Game History Update**
 
-![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/c1b91881-fc23-4234-938b-8b073939881e)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/5b145161-647d-47c7-a72a-d6bae61ad38d)
 

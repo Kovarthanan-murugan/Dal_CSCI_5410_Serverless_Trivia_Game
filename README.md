@@ -43,11 +43,11 @@ Furthermore, correct answers are displayed to players between each question.
 
 **Architecture**
 
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/7e22d5c8-d157-42ff-b158-c6c1866520bf)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/c1e71ea4-88df-4ea9-bf51-d035f79e0698)
 
 Aws Api-gateway service offers mulitple options to create a api, in that websocket is one of it, which enables option to establish bi-directional communications between client and server until the connection is disconnected. Lambda functions to implement the serverless backend operations and dynamodb to store the data.
 
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/7e00fb0f-9e64-4ecd-afb7-70362150e376)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/d441be18-75dc-48c8-819f-fb937bf4e275)
 
 **Lambda Explanation:**
 

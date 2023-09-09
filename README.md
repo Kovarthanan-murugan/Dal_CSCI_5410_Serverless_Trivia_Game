@@ -45,7 +45,7 @@ Furthermore, correct answers are displayed to players between each question.
 3) Aws DynamoDB
 4) Aws SNS
 
-**Architecture**
+**Architecture:**
 
 ![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/c1e71ea4-88df-4ea9-bf51-d035f79e0698)
 
@@ -60,7 +60,6 @@ Aws Api-gateway service offers mulitple options to create a api, in that websock
 **Path:** backend/lambda/onConnectFunction.mjs
 
 When the client request for new connection, Aws websocket  will create new connection for that client and lambda which as been get as a target for $connect route will get trigged and in this lambda the connection id and other details sent by the client as a request parameters when making the connection request will be stored in a database.
-
 
 
 **2. getRequestFunction:**
@@ -96,7 +95,7 @@ When a client exits the game lobby, there connection will be disconnected and th
 **Path:** backend/lambda/reponseToEndPoint.mjs
 It provides options to other module done in different cloud services to access and modify content in the databases.
 
-**Test Cases**
+**Test Cases:**
 
 ![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/30de8c83-a337-4106-975c-e512e6ac8262)
 ![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/14e75bc3-7a46-4e78-b694-9a1ced3984e3)
@@ -163,7 +162,7 @@ The GCP-hosted Node.js backend has been seamlessly deployed onto Cloud Functions
 
 The integration of Google Firestore as the chosen NoSQL document database has been successfully executed. This selection greatly facilitates a range of operations concerning user details within the GCP ecosystem. Leveraging Firestore's adaptable structure, the application securely stores user profile information and game-related historical performance data in an organized and scalable manner. The backend's tight integration with Firestore ensures the uninterrupted flow of data, enabling efficient retrieval to fulfill the application's needs. The utilization of Firestore presents a resilient and effective database solution within the broader GCP environment.
 
-**Test cases**
+**Test cases:**
 
 ![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/4f8bb6ea-0d30-4924-82ea-44ff3ec8dac9)
 

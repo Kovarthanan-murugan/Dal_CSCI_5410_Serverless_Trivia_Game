@@ -6,6 +6,10 @@ Once logged in, users can discover a range of quizzes crafted by the game's admi
 
 Furthermore, users have the capability to oversee their team affiliations. They can invite others to join their teams and remove members if needed. The inclusion of a chatbot assists users throughout the application, offering guidance and delivering scores. The application boasts a user-friendly interface and is entirely serverless. It's constructed utilizing various cloud services provided by AWS and GCP.
 
+ **Architecture**
+
+ ![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/afa5ef5d-9665-4db2-9b7f-bd4a7e480c83)
+
 # Module5 In-Game Experience
 
 **Features Implemented**
@@ -93,12 +97,12 @@ When a client exits the game lobby, there connection will be disconnected and th
 It provides options to other module done in different cloud services to access and modify content in the databases.
 
 **Output:**
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/82b83660-07f2-4dc2-9b16-3ebab6694f22)
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/eabc419a-a7e1-40dd-8848-a1df0cbc3465)
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/c1ce58e2-1461-429e-9f0f-74df5b2db7e5)
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/597ea56d-c1d9-4f00-a2f4-1ec3166c6bbb)
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/95107926-341f-4795-b89b-c49c64c0bad1)
-![image](https://github.com/Kovarthanan-murugan/Serverless-Trivia-Game/assets/90558927/31049e62-f57b-454a-b233-ccda0f217c8f)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/1cb704a5-5026-4fe8-b3f6-0c1c88bd86db)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/736344d5-0d85-4165-b501-167ea32cc7fb)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/c832b1a8-2751-41d9-bcab-34ea67c7e08b)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/eec391b5-a344-4bd0-ade7-7f86f018d57e)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/feb7ae88-0540-49b4-b1b7-2769f2284f11)
+![image](https://github.com/Kovarthanan-murugan/Dal_CSCI_5410_Serverless_Trivia_Game/assets/90558927/c849e648-532a-4b62-adbb-10a4b7566861)
 
 # Module2 User Profile Management
 
